@@ -4,8 +4,6 @@
         <meta charset="utf-8">
         <title>Benvolent Bushahr</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Law Firm Website Template" name="keywords">
-        <meta content="Law Firm Website Template" name="description">
 
         <!-- Start Includes Head -->
         <?php
@@ -30,11 +28,13 @@
 			<!-- End Includes Navbar -->
             
             
-             <!-- Start Includes Carousel -->
-			<?php
-				include('_partials/carousel.php'); // Includes Carousel
-			?>
-			<!-- End Includes Carousel -->
+           <!-- Page Header Start -->
+            <div class="page-header">              
+				<div class="col-12">
+					<h2>Ambassador of Bushahr</h2>
+				</div>
+            </div>
+            <!-- Page Header End -->
            
             
 			
@@ -42,7 +42,7 @@
             <div class="team">
               <div class="container">
                 <div class="section-header">
-                        <h2>Ambassador of Bushahr</h2>
+                        
                         <ui style="list-style-type:square; text-align:left" >
                         <li style="text-align:left">To highlight kind and generous act of the people residing in the Rampur Subdivision.</li>
 <li>People: demonstrate the power of goodness & human values.</li>

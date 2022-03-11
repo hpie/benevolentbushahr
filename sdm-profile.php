@@ -4,8 +4,6 @@
         <meta charset="utf-8">
         <title>Benvolent Bushahr</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Law Firm Website Template" name="keywords">
-        <meta content="Law Firm Website Template" name="description">
 
         <!-- Start Includes Head -->
         <?php
@@ -32,20 +30,12 @@
             
             <!-- Page Header Start -->
             <div class="page-header">
-                
-                
-                        <div class="col-12">
-                            <h2>SDM PROFILE</h2>
-                        </div>
-                        
-          </div>
-                </div>
+				<div class="col-12">
+					<h2>SDM PROFILE</h2>
+				</div>
             </div>
             <!-- Page Header End -->
 
-
-            <!-- About Start -->
-            <!-- About End -->
 
 
             <!-- Timeline Start -->

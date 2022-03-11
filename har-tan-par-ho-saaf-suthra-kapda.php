@@ -4,8 +4,6 @@
         <meta charset="utf-8">
         <title>Benvolent Bushahr</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Law Firm Website Template" name="keywords">
-        <meta content="Law Firm Website Template" name="description">
 
         <!-- Start Includes Head -->
         <?php
@@ -30,19 +28,19 @@
 			<!-- End Includes Navbar -->
             
             
-             <!-- Start Includes Carousel -->
-			<?php
-				include('_partials/carousel.php'); // Includes Carousel
-			?>
-			<!-- End Includes Carousel -->
-           
-            
-           
+             <!-- Page Header Start -->
+            <div class="page-header">               
+				<div class="col-12">
+					<h2>"हर तन पर हो साफ सुथरा कपड़ा" </h2>
+				</div>
+            </div>
+            <!-- Page Header End -->
+                                
             <!-- Team Start -->
             <div class="team">
               <div class="container">
                 <div class="section-header" align="left">
-                        <center><h2>"हर तन पर हो साफ सुथरा कपड़ा" </h2></center>
+                        
                         <p>
                         बहुत सारे लोग और बच्चे जिनके पास या तो कोई आश्रय नहीं है या जो झुग्गी-झोपड़ियों में या सड़कों पर रह रहे हैं, कड़ाके की सर्दी उन पर कोई रहम नहीं करती है, उन्हें उससे भी ज्यादा ठंड लगती है जो हम अपने घरों के अंदर ढेर सारे कपड़े और हीटर के साथ बैठे हुए महसूस करते हैं। कई बच्चे और गरीब लोग जिनके  पास पहनने के लिए उचित कपड़े नहीं होते हैं ,मर जाते हैं क्योंकि वे सर्दी का सामना करने में सक्षम नहीं होते हैं ।</p> 
 <p>उपमंडल रामपुर में "हर तन पर हो साफ सुथरा कपड़ा" अभियान इस उदेश्य के साथ शुरू किया गया ताकि लोगों को ठंड से लड़ने में मदद करने और पहनने के लिए साफ सुथरे कपड़े दानी जनमानस से एकत्रित करके गरीबों और जरुरतमंदों में वितरित किये जा सकें । इस अभियान का ध्येय यह था कि गरीबों और वंचितों में से कई के पास पर्याप्त कपड़ों की कमी है और कपड़ों का दान न केवल वंचितों के जीवन को बेहतर बनाता है बल्कि रीसाइक्लिंग की पर्यावरण के अनुकूल अवधारणा को भी बढ़ावा देता है</p>

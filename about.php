@@ -4,8 +4,6 @@
         <meta charset="utf-8">
         <title>Benvolent Bushahr</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Law Firm Website Template" name="keywords">
-        <meta content="Law Firm Website Template" name="description">
 
         <!-- Start Includes Head -->
         <?php
@@ -31,21 +29,13 @@
             
             
             <!-- Page Header Start -->
-            <div class="page-header">
-                
-                
-                        <div class="col-12">
-                            <h2>WHAT IS BENEVOLENT BUSHAHR?</h2>
-                        </div>
-                        
-          </div>
-                </div>
+            <div class="page-header">                           
+				<div class="col-12">
+					<h2>WHAT IS BENEVOLENT BUSHAHR?</h2>
+				</div>                       
             </div>
             <!-- Page Header End -->
 
-
-            <!-- About Start -->
-            <!-- About End -->
 
 
             <!-- Timeline Start -->
@@ -58,10 +48,9 @@
 <p>Bushahr over the years has captured the imagination of the public when it comes to its warmth, hospitality and compassion. Benevolent Bushahr is a platform to celebrate the lives of many kind hearted people and to bring together like minded people who can create a holistic destination out of Bushahr. Benevolent Bushahr is an attempt to 'Create Better Places for People to Live and Visit’. Benevolent Bushahr is all about that attitude. It's about the culture of sharing; sharing for the betterment of people and places.</p> 
 <p>A plethora of initiatives have been launched and some more will be launched in the coming three months by the Sub Divisional Administration in partnership with civil society, Government agencies and citizens, who volunteer to create an authentic and inspirational destination for them to live and invite people to visit and be part of their lives and experiences. We can only be facilitators and to some extent be the match makers. However Benevolent Bushahr can become a success story only if all of us come together selflessly.</p>
 
-                    </div>
-                 
+                    </div>                 
                 </div>
-    </div>
+			</div>
             
 
             <!-- Start Includes Footer -->

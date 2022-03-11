@@ -4,8 +4,6 @@
         <meta charset="utf-8">
         <title>Benvolent Bushahr</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Law Firm Website Template" name="keywords">
-        <meta content="Law Firm Website Template" name="description">
 
         <!-- Start Includes Head -->
         <?php
@@ -30,11 +28,13 @@
 			<!-- End Includes Navbar -->
             
             
-             <!-- Start Includes Carousel -->
-			<?php
-				include('_partials/carousel.php'); // Includes Carousel
-			?>
-			<!-- End Includes Carousel -->
+              <!-- Page Header Start -->
+            <div class="page-header">
+				<div class="col-12">
+					<h2>Humara Bushahr </h2>
+				</div>
+            </div>
+            <!-- Page Header End -->
            
             
             
@@ -42,7 +42,7 @@
             <div class="team">
               <div class="container">
                 <div class="section-header">
-                        <h2>Humara Bushahr</h2>
+                        
                         <p align="justify">Our motherland is blessed with some unique benefits like Democracy, Demographic Dividend and Demand to make it the most powerful nation in the world. Among them, Demographic Dividend defines the other Ds and decides the future of India. Hmara Bushahr is a broad platform of few social experiments to convert the huge youth prominence of the country to a unique demographic benefit that makes India the most successful country of the 21st century. 'Hmara Bushahr’ attempts to realize the dream, a better tomorrow for Rampur Bushahr, Himachal Pradesh, India and the Indians! A Bushahr where people willfully abide by the laws of the land, where people exercise better civic sense, where everyone explores their inner capabilities to the fullest, where everyone devotionally practice cleanliness, where children are mentored appropriately so that they don't suffer from behavioral, emotional, social and learning issues and an India where parents, teachers and society are scientifically enabled to fulfill their responsibilities towards children. </p>
                         <ui style="list-style-type:square; text-align:left" >
                         <li>Rampur town is a major market centre for localities and tourists who travel the region.</li>

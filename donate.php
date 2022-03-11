@@ -2,8 +2,12 @@
     if(isset($_POST['firstname'])){
         include('smtp_mail/smtp_send.php');    
         $sendmail = new SMTP_mail();
-        $respMail = $sendmail->sendResponseMail($_POST);
-		$thankMail = $sendmail->sendThankyouMail($_POST);               
+        $respMail = $sendmail->sendDonationMail($_POST);
+		$thankMail = $sendmail->sendDonerThankyouMail($_POST);            
+        //print_r($respMail);
+		//print_r($thankMail);
+		//die;
+        
 ?>
 	<script>
 		alert('Thank you. We will contact you. \n Congratulation');
@@ -46,7 +50,7 @@
               <!-- Page Header Start -->
             <div class="page-header">
 				<div class="col-12">
-					<h2>Volunteering </h2>
+					<h2>Can You Donate?</h2>
 				</div>
             </div>
             <!-- Page Header End -->
@@ -64,20 +68,21 @@
                         </div>-->
                         <!--<div class="col-lg-7 col-md-6">-->
                             <div class="section-header">
-                                <h2>Volunteering</h2>
+                                <h2>Submit a Donation Interest</h2>
                             </div>
                             <div class="about-text">
                                 <p>
-                                    Wealth alone will not make “Benevolent Bushahr” a success. We want human resources also to help the deprived. 
-									Volunteering services can be right choice for you, if you really want to help your fellow citizens. 
-									You may enter into the life of somebody who is looking up for help. 
-									If you can spare time and energy, then this is the right place. 
-									We will provide the details of those, who need your time.
+									Many person in Sub Division Rampur are living a life, which we can never imagine. 
+									They are deprived off even the prime needs. 
+									This prompted us to ask the question to ourselves “Can You Donate”.
+									This initiative is for the kind of person like you, who is having money, time, and generosity to help the needy; but does not know how to and to whom.
+									If you have the zeal and compassion, this is really for you. 
+									You can donate to those needy person by filling the from below and don’t forget to share your details.
                                 </p>
                                 <p>
                                     
                                 </p>
-                                Yes I am ready &nbsp; &nbsp; &nbsp; <input type="checkbox" />
+                               
                             </div>
                         <!--</div>-->
                     </div>
@@ -97,10 +102,10 @@
                         </div>-->
                         <!--<div class="col-lg-7 col-md-6">-->
                             <div class="section-header">
-                                <h2>Volunteer Registration Form</h2>
+                                <h2>Donation Interest Form</h2>
                             </div>
                             <div class="contact-form">
-							<form name="volunteerform" id="volunteerform" action="volunteer.php" method="post">
+							<form name="donationform" id="donationform" action="donate.php" method="post">
                                 <table>
 								
 									<tr>
@@ -108,50 +113,77 @@
 										<td>
 											<select id="select-sort" name="sort">
 												<option value="">---Select One---</option>
-												<option value="gau-sadan-rampur">Gau Sadan Rampur</option>
-												<option value="govt-primary-school">Govt Primary School</option>
-												<option value="govt-srsec-school">Govt Sr. Sec. School</option>
-												<option value="humara-bushahr-volunteer">Humara Bushahr Volunteer</option>
-												<option value="muncipal-corporation-rampur">MC Rampur</option>
-												<option value="police-station-rampur">Police Station Rampur</option>
-												<option value="sdm-office-rampur">SDM Office Rampur</option>
-												<option value="tehsil-office-rampur">Tehsil Office Rampur</option>
-												<option value="taffic-help-rampur">Traffic Help Rampur</option>
+												<option value="Bus-Stand-Rampur">Bus Stand Rampur</option>
+												<option value="Gau-Sadan-Rampur">Gau Sadan Rampur</option>
+												<option value="Govt-Collage-Rampur">Govt Collage Rampur</option>
+												<option value="Govt-Hospital">Govt Hospital</option>
+												<option value="Govt-School">Govt School</option>
+												<option value="Govt-Offices">Govt Offices</option>
+												<option value="Koshish-Ek-Aasha-Rampur">Koshish Ek Aasha Rampur</option>
+												<option value="Library-Rampur">Library Rampur</option>
+												<option value="MGHSC-Khaneri">MGHSC Khaneri</option>
 											</select>
 										</td>
 									</tr>
 									
 									<tr>
-										<td>Profession *</td>
+										<td>Sub-sort *</td>
 										<td>
-											<select id="select-profession" name="profession">
+											<select id="select-subsort" name="subsort">
 												<option value="">---Select One---</option>
-												<option value="councillor">Councillor</option>
-												<option value="doctor">Doctor</option>
-												<option value="nurse">Nurse</option>
-												<option value="physiology">Physiology</option>
-												<option value="social-worker">Social Worker</option>
-												<option value="teacher">Teacher</option>
+												<option value="Almirah">	Almirah	</option>
+												<option value="Bedding">	Bedding	</option>
+												<option value="Benches">	Benches	</option>
+												<option value="Benches-and-Desk">	Benches and Desk	</option>
+												<option value="Books">	Books	</option>
+												<option value="Books-for-School-Library">	Books for School Library	</option>
+												<option value="Capturing-Lifting-Machine">	Capturing Lifting Machine	</option>
+												<option value="Chair-and-Table">	Chair and Table	</option>
+												<option value="Chairs">	Chairs	</option>
+												<option value="Competitive-Books">	Competitive Books	</option>
+												<option value="Desktop">	Desktop	</option>
+												<option value="Display-Board">	Display Board	</option>
+												<option value="Emergency-Light">	Emergency Light	</option>
+												<option value="Entertainment-Rider">	Entertainment Rider	</option>
+												<option value="File-Rack">	File Rack	</option>
+												<option value="Food-and-Bhusa">	Food and Bhusa	</option>
+												<option value="Furniture">	Furniture	</option>
+												<option value="Hospital-Bedding">	Hospital Bedding	</option>
+												<option value="Hospital-Benches">	Hospital Benches	</option>
+												<option value="Hospital-Trolley">	Hospital Trolley	</option>
+												<option value="Hospital-Wheel-Chair">	Hospital Wheel Chair	</option>
+												<option value="Other">	Other	</option>
+												<option value="Physlo-role">	Physlo role  	</option>
+												<option value="Round-Ball-Pool">	Round Ball Pool	</option>
+												<option value="School-Chairs">	School Chairs	</option>
+												<option value="Smart-TV-Set">	Smart TV Set	</option>
+												<option value="Solar-Light">	Solar Light	</option>
+												<option value="Sports-Kit">	Sports Kit	</option>
+												<option value="Steel-Cot">	Steel Cot	</option>
+												<option value="Steel-Covering">	Steel Covering	</option>
+												<option value="Tables">	Tables	</option>
+												<option value="Tarpaulin">	Tarpaulin	</option>
+												<option value="Tasler">	Tasler                  	</option>
+												<option value="Therapy-Ball">	Therapy Ball 	</option>
+												<option value="Towels">	Towels	</option>
+												<option value="Tunnel">	Tunnel        	</option>
+												<option value="Utensils">	Utensils	</option>
+												<option value="Utensils-for-school">	Utensils for school	</option>
+												<option value="Water-Purifier">	Water Purifier	</option>
 											</select>
 										</td>
 									</tr>
 									
 									<tr>
-										<td>Sub Profession *</td>
+										<td>Budget *</td>
 										<td>
-											<select id="select-subprofession" name="subprofession">
+											<select id="select-budget" name="budget">
 												<option value="">---Select One---</option>
-												<option value="councillor-english">Councillor English</option>
-												<option value="councillor">Councillor Hindi</option>
-												<option value="doctor-allopathy">Doctor Allopathy</option>
-												<option value="doctor-animal-husbandry">Doctor (Animal Husbandry)</option>
-												<option value="doctor-ayurvedic">Doctor (Ayurvedic)</option>
-												<option value="teacher-english">Teacher (English)</option>
-												<option value="teacher-maths">Teacher (Maths)</option>
-												<option value="teacher-music">Teacher (Music)</option>
-												<option value="teacher-primary">Teacher (Primary)</option>
-												<option value="teacher-sports">Teacher (Sports)</option>
-												<option value="teacher-yoga">Teacher (Yoga)</option>
+												<option value="500-to-5000">500 to 5000</option>
+												<option value="5000-to-10000">5000 to 10000</option>
+												<option value="10000-to-50000">10000 to 50000</option>
+												<option value="50000-to-100000">50000 to 100000</option>
+												<option value="Above-100000 ">Above 100000</option>
 											</select>
 										</td>
 									</tr>
@@ -178,12 +210,6 @@
 										<td>Email ID </td>
 										<td>
 											<input type="text" id="email-id" name="emailid" />
-										</td>
-									</tr>
-									<tr>
-										<td>Current Profession</td>
-										<td>
-											<input type="text" id="current-profession" name="currentprofession" />
 										</td>
 									</tr>
 									<tr>

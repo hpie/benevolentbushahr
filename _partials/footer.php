@@ -14,7 +14,10 @@
         </div>
 
         <!-- JavaScript Libraries -->
-        <script src="lib/jquery/jquery-3.4.1/jquery-3.4.1.min.js"></script>
+        <!--<script src="lib/jquery/jquery-3.4.1/jquery-3.4.1.min.js"></script>-->
+		<script src="lib/jquery/jquery-3.1.1/jquery-3.1.1.min.js"></script>
+		<script src="lib/jquery/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+		<script src="lib/jquery/jquery-validate/1.19.3/additional-methods.min.js"></script>
         <script src="lib/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
@@ -31,4 +34,66 @@
 		  gtag('js', new Date());
 
 		  gtag('config', 'UA-184191005-1');
+		</script>
+		
+		 <!-- Validation Javascript -->
+		<script>
+			jQuery.validator.setDefaults({
+			  debug: false,
+			  success: "valid"
+			});
+			
+			$( "#volunteerform" ).validate({
+			  rules: {
+				sort: {
+				   required: true
+				},
+				profession: {
+				   required: true
+				},
+				subprofession: {
+				   required: true
+				},
+				firstname: {
+				   required: true,
+					minlength: 2
+				},
+				emailid: {
+				  email: true
+				},
+				mobileno: {
+				  required: true,
+				  number: true,
+				  minlength: 10,
+				  maxlength: 10
+				}
+			  }
+			});
+			
+			$( "#donationform" ).validate({
+			  rules: {
+				sort: {
+				   required: true
+				},
+				subsort: {
+				   required: true
+				},
+				budget: {
+				   required: true
+				},
+				firstname: {
+				   required: true,
+					minlength: 2
+				},
+				emailid: {
+				  email: true
+				},
+				mobileno: {
+				  required: true,
+				  number: true,
+				  minlength: 10,
+				  maxlength: 10
+				}
+			  }
+			});
 		</script>

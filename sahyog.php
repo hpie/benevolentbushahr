@@ -4,8 +4,6 @@
         <meta charset="utf-8">
         <title>Benvolent Bushahr</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Law Firm Website Template" name="keywords">
-        <meta content="Law Firm Website Template" name="description">
 
         <!-- Start Includes Head -->
         <?php
@@ -30,11 +28,13 @@
 			<!-- End Includes Navbar -->
             
             
-             <!-- Start Includes Carousel -->
-			<?php
-				include('_partials/carousel.php'); // Includes Carousel
-			?>
-			<!-- End Includes Carousel -->
+              <!-- Page Header Start -->
+            <div class="page-header">
+				<div class="col-12">
+					<h2>Shayog </h2>
+				</div>
+            </div>
+            <!-- Page Header End -->
            
             
             
@@ -42,8 +42,8 @@
             <div class="team">
               <div class="container">
                 <div class="section-header" style="text-align:left">
-                        <h2 align="center">Shayog</h2>
-                        <b  style="text-align:right"> <a href="Sahyog in Hindi.html" style="text-align:right">हिंदी मे पढ़े ...</a></b>
+                        
+                        <b  style="text-align:right"> <a href="sahyog-hindi.php" style="text-align:right">हिंदी मे पढ़े ...</a></b>
                         <center><b>“SAHYOG: SAHYOG HMARA SANGHARSH AAPKA”</b></center>
 <p>When someone aims to be a civil servant, apart from questions involving the difficulty level of the Union and State Public Service Commission exam and the other processes, the expenses and time involved in preparing for it unavoidably crop up. Ironically, private players have catered to this domain for long but when young Civil Services Officers come forward to meet these requirement of aspirants then even underprivileged and students of remote areas can crack these prestigious exam. Sub Division administration Rampur in the leadership of then SDM Rampur decided to initiate 'Sahyog' program for aspiring candidates preparing to qualify the UPSC, HPPSC , CDS, NDA and all other competitive exams. Main idea behind this ambitious program was to demolish the general notion that civil services are for the elite class alone.</p>
 <p><b>“SAHYOG: SAHYOG HMARA SANGHARSH AAPKA”</b> Initiative was started by <b><i>SDM Rampur Sh. Surender Mohan ( HAS 2014 batch)</i></b> for aspirants of Sub-Division Rampur and adjoining Sub Division with aim to provide free mentorship and guidance for various competitive examination like Exam conducted by UPSC ( IAS/CDS/NDA/AC-CPF), HPPSC (HAS/ NT/ Allied Services) and SSC. This initiative initiated with various components which include:</p><br>

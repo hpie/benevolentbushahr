@@ -4,8 +4,7 @@
         <meta charset="utf-8">
         <title>Benvolent Bushahr</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Law Firm Website Template" name="keywords">
-        <meta content="Law Firm Website Template" name="description">
+
 		
 		<!-- Start Includes Head -->
         <?php
@@ -83,7 +82,7 @@
                                 <p>
                                     	To highlight kind and generous act of the people residing in the Rampur.
                                 </p>
-                                <a class="btn" href="Ambassador of bushahr.html">Learn More</a>
+                                <a class="btn" href="ambassador-of-bushahr.php">Learn More</a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
@@ -95,7 +94,7 @@
                                 <p>
                                     To provide branding, opportunities to identified Self Help Groups.
                                 </p>
-                                <a class="btn" href="Bushahr Hunar Haat.html">Learn More</a>
+                                <a class="btn" href="bushahr-hunar-haat.php">Learn More</a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
@@ -107,7 +106,7 @@
                                 <p>
                                    .........
                                 </p>
-                                <a class="btn" href="har tan par ho saaf suthra kapda.html">Learn More</a>
+                                <a class="btn" href="har-tan-par-ho-saaf-suthra-kapda.php">Learn More</a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
@@ -119,7 +118,7 @@
                                 <p>
                                     Hmara Bushahr is a broad platform of few social experiments to.....
                                 </p>
-                                <a class="btn" href="Hmara Bushahr.html">Learn More</a>
+                                <a class="btn" href="hmara-bushahr.php">Learn More</a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
@@ -131,7 +130,7 @@
                                 <p>
                                     Mission Better Tomorrow is a broad platform of few social experiments.
                                 </p>
-                                <a class="btn" href="Mission Better Tomorrow.html">Learn More</a>
+                                <a class="btn" href="mission-better-tomorrow.php">Learn More</a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
@@ -144,7 +143,7 @@
                                    Childrens' library strengthening and adding more books
 
                                 </p>
-                                <a class="btn" href="Sahyog.html">Learn More</a>
+                                <a class="btn" href="sahyog.php">Learn More</a>
                             </div>
                         </div>
                     </div>
