@@ -1,12 +1,22 @@
 
             <!-- Footer Start -->
             <div style="padding:0px 200px 1px 60px; background-color:#000">
-				<ul style="list-style-type:none; margin:0;padding:0px 200px 1px 60px; overflow:">
-				  <li style="float:left; color:#FFF; padding:0px 20px"  ><a href="#home" style="display:block; padding:8px; background-color:#000">Home</a></li>
-				  <li style="float:left; color:#FFF; padding:0px 20px"><a href="#news" style="display:block; padding:8px; background-color:#000">News</a></li>
-				  <li style="float:left; color:#FFF; padding:0px 20px"><a href="#contact" style="display:block; padding:8px; background-color:#000">Contact</a></li>
-				  <li style="float:left; color:#FFF; padding:0px 20px"><a href="#about" style="display:block; padding:8px; background-color:#000">About</a></li>
-				</ul>
+				<div> 
+					<a href="#home" style="display:inline; padding:1px; color:fff; background-color:#000">Home</a> 
+					| 
+					<a href="#news" style="display:inline; padding:1px; color:fff; background-color:#000">News</a>
+					|
+					<a href="#contact" style="display:inline; padding:1px; color:fff; background-color:#000">Contact</a>
+					|
+					<a href="#about" style="display:inline; padding:1px; color:fff; background-color:#000">About</a>
+				</div>
+				
+				<!--<ul>
+				  <li style="float:left; color:#FFF; padding:0px 20px"  ><a href="#home" style="display:block; padding:1px; background-color:#999">Home</a></li>
+				  <li style="float:left; color:#FFF; padding:0px 20px"><a href="#news" style="display:block; padding:1px; background-color:#000">News</a></li>
+				  <li style="float:left; color:#FFF; padding:0px 20px"><a href="#contact" style="display:block; padding:1px; background-color:#000">Contact</a></li>
+				  <li style="float:left; color:#FFF; padding:0px 20px"><a href="#about" style="display:block; padding:1px; background-color:#000">About</a></li>
+				</ul>-->
 			</div>
     
             <!-- Footer End -->            
