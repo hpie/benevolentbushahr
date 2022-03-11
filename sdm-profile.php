@@ -35,31 +35,112 @@
 				</div>
             </div>
             <!-- Page Header End -->
+                          
+             
+            <!-- About Start -->
+            <div class="about">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 col-md-6">
+                            <div class="about-img">
+                                <img src="img/SDM.jpeg" alt="Image">
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-6">
+                            
+                            <div class="about-text">
+                               <div class=WordSection1>
+<div>
+                            <div class="about-img" >
+                               <table width="619" height="425" border="2" bordercolor="#CCCCCC">
 
+  <tr bgcolor="#FFFFFF">
+   	<td width="95" > Profile </td>
+   	<td width="517">Description</td>
+  </tr>
+ </thead>
+ <tr bgcolor="#FFFFFF">
+  <td >Service</td>
+  <td >H.A.S</td>
+ </tr>
+ <tr bgcolor="#FFFFFF">
+  <td>Qualification</td>
+  <td>B.TECH</td>
+ </tr>
+ <tr bgcolor="#FFFFFF">
+  <td>E-mail</td>
+  <td >sdmrampurbushahr@gmail.com</td>
+ </tr>
+ <tr bgcolor="#FFFFFF">
+  <td>Telephone No.</td>
+  <td >01782-233002 (O)<br>
+  01782-(R)<br>
+  01782-233002 (Fax)<br>
+  7018478288(Mob)</td>
+ </tr>
+ <tr bgcolor="#FFFFFF">
+  <td>Address</td>
+  <td >SDM Office Rampur <span class=SpellE>Bushahr</span>, District
+  Shimla, HP -172001</td>
+ </tr>
+ <tr bgcolor="#FFFFFF">
+  <td>Present Post</td>
+  <td >SDM RAMPUR BUSHAHR, District Shimla Himachal Pradesh.</td>
+ </tr>
+ <tr bgcolor="#FFFFFF">
+  <td>Prev. Postings</td>
+  <td>SDM, RAJGARH<br>
+  SDM, RAMPUR BUSHAHR<br>
+  SDM THUNAG<br>
+  SDM, NICHAR@BHAVANAGAR<br>
+  AC (DEV.) NICHAR</td>
+ </tr>
+</table>
+
+                            </div>
+                        </div>
+
+
+
+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
 
 
             <!-- Timeline Start -->
             <div class="timeline">
                 <div class="container">
-                    <div class="section-header" style="text-align:justify">
-                   <p> What is the thing that clicks in Bushahr? What brings them the sense of togetherness? It's this exploration that led to facilitating a podium called 'Benevolent Bushahr.’ Benevolent Bushahr is a broad platform of few social experiments to convert the huge youth prominence of the region to a unique demographic benefit that makes India the most successful country of the 21st century. 'Benevolent Bushahr’ attempts to realize the dream, a better tomorrow for Rampur Bushahr, Himachal Pradesh, India and the Indians!</p> 
-<p>A Bushahr where people willfully abide by the laws of the land, where people exercise better civic sense, where everyone explores their inner capabilities to the fullest, where everyone devotionally practice cleanliness, where children are mentored appropriately so that they don't suffer from behavioral, emotional, social and learning issues and an India where parents, teachers and society are scientifically enabled to fulfill their responsibilities towards children.</p>
-<p>Being there for the other person, we believe is an inherent quality or feeling within ourselves. It's standing together for the others that bring out the best in us. The collective consciousness of a place is as important as our own individual consciousness.</p>
-<p>Bushahr over the years has captured the imagination of the public when it comes to its warmth, hospitality and compassion. Benevolent Bushahr is a platform to celebrate the lives of many kind hearted people and to bring together like minded people who can create a holistic destination out of Bushahr. Benevolent Bushahr is an attempt to 'Create Better Places for People to Live and Visit’. Benevolent Bushahr is all about that attitude. It's about the culture of sharing; sharing for the betterment of people and places.</p> 
-<p>A plethora of initiatives have been launched and some more will be launched in the coming three months by the Sub Divisional Administration in partnership with civil society, Government agencies and citizens, who volunteer to create an authentic and inspirational destination for them to live and invite people to visit and be part of their lives and experiences. We can only be facilitators and to some extent be the match makers. However Benevolent Bushahr can become a success story only if all of us come together selflessly.</p>
+                    <div class="section-header">
+                        <h2>MESSAGE</h2>
+                        
+	   <p>I consider myself fortunate enough to become flag bearer for the Benevolent Bushahr campaign. Benevolent Bushahr is a broad platform of few social experiments to convert the huge youth eminence of the region to a unique demographic benefit that makes India the most successful country of the 21st century. I find such an adventure filled with new experiences, learning for all and a chance to constantly widen our horizons.</p>
+<p>Benevolent Bushahr is a  plethora of initiatives that have been launched and some more will be launched in the coming three months by the Sub Divisional Administration and I strongly believe that such initiative make our society much better.</p>
+<p>'Benevolent Bushahr’ attempts to realize the dream, a better tomorrow for Rampur Bushahr, Himachal Pradesh, India and the Indians! A Bushahr where people willfully abide by the laws of the land, where people exercise better civic sense, where everyone explores their inner capabilities to the fullest, where everyone devotionally practice cleanliness, where children are mentored appropriately so that they don't suffer from behavioral, emotional, social and learning issues and an India where parents, teachers and society are scientifically enabled to fulfill their responsibilities towards children.</p>
+<p>We believe that this campaign will unite people share the feeling of ‘compassionate' and thereby create a haven on earth.</p> 
+<h3>Help me co-create and collaborate on building a positive destination out of Bushahr.</h3>
+<h3>Jai Hind!</h3>
 
                     </div>
-                 
+                   
                 </div>
-    </div>
-            
+            </div>
+            <!-- Timeline End -->
+            <div class="containernew" style="text-align:left">
+       
+
+	  
+       
+</div>
 
             <!-- Start Includes Footer -->
 			<?php
 				include('_partials/footer.php'); // Includes Footer Links
 			?>
 			<!-- End Includes Footer -->
-			
 			
     </body>
 </html>

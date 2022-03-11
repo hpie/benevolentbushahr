@@ -54,7 +54,7 @@ class SMTP_mail {
 
         $this->sender_name ='Benevolent Bushahr';
 
-        $this->subject ='New Vulunteering Interest Received';
+        $this->subject ='New Volunteering Interest Received';
 
         $this->mail->isSMTP();
 
