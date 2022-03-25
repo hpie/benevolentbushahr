@@ -189,18 +189,18 @@
 									<tr>
 										<td><input type="reset" id="btn-reset" name="btn-reset" class="btn" value="Reset Form"/></td>
 										<td>
-											<input type="submit" id="btn-submit" name="btn-submit" class="btn" value="Submit Interest"/>
+											<input type="submit" id="btn-submit" name="btn-submit" class="btn" value="Submit Interest" disabled="true"/>
 										</td>
 									</tr>
 								</table>
 								<div>                               
-                                    <!--<script nonce='S51U26wMQz' type="text/javascript" src="https://www.google.com/recaptcha/api.js" async defer></script>
+                                    <script nonce='S51U26wMQz' type="text/javascript" src="https://www.google.com/recaptcha/api.js" async defer></script>
                                     <script nonce='S51U26wMQz' type="text/javascript">
                                         function enableLogin() {
                                             document.getElementById("btn-submit").disabled = false;
                                         }
-                                    </script> -->
-                                    <!-- <div class="g-recaptcha" style="" data-sitekey="6Lc3xQgcAAAAAAjsxlofZ3X0axLXJxlgzVFzdqSe1" data-callback="enableLogin"></div>-->		
+                                    </script>
+                                    <div class="g-recaptcha" style="" data-sitekey="6LfIINIeAAAAAAcWgL96t6vKP4VWlOfdlTBwKaxX" data-callback="enableLogin"></div>		
                                     <br>
                                 </div>
 								</form>

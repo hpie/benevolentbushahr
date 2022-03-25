@@ -113,6 +113,7 @@
 										<td>
 											<select id="select-sort" name="sort">
 												<option value="">---Select One---</option>
+												<option value="Administration">Administration</option>
 												<option value="Bus-Stand-Rampur">Bus Stand Rampur</option>
 												<option value="Gau-Sadan-Rampur">Gau Sadan Rampur</option>
 												<option value="Govt-Collage-Rampur">Govt Collage Rampur</option>
@@ -139,6 +140,7 @@
 												<option value="Books-for-School-Library">	Books for School Library	</option>
 												<option value="Capturing-Lifting-Machine">	Capturing Lifting Machine	</option>
 												<option value="Chair-and-Table">	Chair and Table	</option>
+												<option value="CCTV-Camera">	CCTV Camera	</option>
 												<option value="Chairs">	Chairs	</option>
 												<option value="Competitive-Books">	Competitive Books	</option>
 												<option value="Desktop">	Desktop	</option>
@@ -215,18 +217,18 @@
 									<tr>
 										<td><input type="reset" id="btn-reset" name="btn-reset" class="btn" value="Reset Form"/></td>
 										<td>
-											<input type="submit" id="btn-submit" name="btn-submit" class="btn" value="Submit Interest"/>
+											<input type="submit" id="btn-submit" name="btn-submit" class="btn" value="Submit Interest" disabled="true"/>
 										</td>
 									</tr>
 								</table>
 								<div>                               
-                                    <!--<script nonce='S51U26wMQz' type="text/javascript" src="https://www.google.com/recaptcha/api.js" async defer></script>
+                                    <script nonce='S51U26wMQz' type="text/javascript" src="https://www.google.com/recaptcha/api.js" async defer></script>
                                     <script nonce='S51U26wMQz' type="text/javascript">
                                         function enableLogin() {
                                             document.getElementById("btn-submit").disabled = false;
                                         }
-                                    </script> -->
-                                    <!-- <div class="g-recaptcha" style="" data-sitekey="6Lc3xQgcAAAAAAjsxlofZ3X0axLXJxlgzVFzdqSe1" data-callback="enableLogin"></div>-->		
+                                    </script>
+                                    <div class="g-recaptcha" style="" data-sitekey="6LfIINIeAAAAAAcWgL96t6vKP4VWlOfdlTBwKaxX" data-callback="enableLogin"></div>		
                                     <br>
                                 </div>
 								</form>
