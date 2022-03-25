@@ -32,7 +32,7 @@
 								<a href="donate.php" class="nav-item nav-link">Donate</a>
 							</div>
 							
-							<div class="ml-auto"><a href="#"><a href="#"><img src="img/donate.jpg" width="90" height="31"></a></a></div>
+							<div class="ml-auto"><a href="#"><a href="donate.php"><img src="img/donate.jpg" width="90" height="31"></a></a></div>
 							
 						</div>
 					</nav>

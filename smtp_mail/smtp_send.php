@@ -19,40 +19,31 @@ require 'smtp_mail/PHPMailerAutoload.php';
 class SMTP_mail {
 
     public $mail;
-
     public $sender_email;
-
     public $username;
-
     public $password;
-
     public $host;
-
     public $port;
-
     public $subject;   
-
     public $sender_name;
+	public $send_to;
+	public $send_cc;
+	public $send_bcc;
 
    // public $product_name;
     public function __construct() {
-//        $this->mail = new PHPMailer;        
-//        $this->port = 465;
-//        $this->host = "hostingserver.leewaysoftech.com";       
-//        $this->username = "info@aranyavilas.com";
-//        $this->password = "@rany2!nf0#m21l";
         $this->mail = new PHPMailer;        
         $this->port = 465;
 		//$this->port = 587;
-        $this->host = "mail.benevolentbushahr.in";       
-        $this->username = "noreply@benevolentbushahr.in";
-        $this->password = "N0R#plyP@s5";
+        $this->host = "your-smtp";       
+        $this->username = "smtp-user";
+        $this->password = "smtp-pass";
+		$this->sender_email ='sender';
+		$this->sender_name ='Benevolent Bushahr';
+		$this->send_to ='receiver';
+		$this->send_bcc ='receiver-bcc';
     }   
     public function sendResponseMail($data) {       
-        
-        $this->sender_email ='noreply@benevolentbushahr.in';
-
-        $this->sender_name ='Benevolent Bushahr';
 
         $this->subject ='New Volunteering Interest Received';
 
@@ -74,10 +65,10 @@ class SMTP_mail {
 
         $this->mail->Password = $this->password;
 
-        $this->mail->setFrom($this->sender_email,"Benevolent Bushahr");
+        $this->mail->setFrom($this->sender_email, $this->sender_name);
 
-        $this->mail->addAddress("benevolentbushahr@gmail.com");
-		$this->mail->addBCC("info@benevolentbushahr.in");
+        $this->mail->addAddress($this->send_to);
+		$this->mail->addBCC($this->send_bcc);
 
         $this->mail->Subject = $this->subject;
 
@@ -102,10 +93,6 @@ class SMTP_mail {
     } 
 
 	public function sendThankyouMail($data) {       
-        
-        $this->sender_email ='noreply@benevolentbushahr.in';
-
-        $this->sender_name ='Benevolent Bushahr';
 
         $this->subject ='Thank you for Contacting Benevolent Bushahr';
 
@@ -127,10 +114,10 @@ class SMTP_mail {
 
         $this->mail->Password = $this->password;
 
-        $this->mail->setFrom($this->sender_email,"Benevolent Bushahr");
+        $this->mail->setFrom($this->sender_email, $this->sender_name);
 
         $this->mail->addAddress($data['email-id']);
-		$this->mail->addBCC("info@benevolentbushahr.in");
+		$this->mail->addBCC($this->send_bcc);
 
         $this->mail->Subject = $this->subject;
 
@@ -155,11 +142,8 @@ class SMTP_mail {
     }
 
 
-public function sendDonationMail($data) {       
-        
-        $this->sender_email ='noreply@benevolentbushahr.in';
+	public function sendDonationMail($data) {       
 
-        $this->sender_name ='Benevolent Bushahr';
 
         $this->subject ='New Donation Interest Received';
 
@@ -181,10 +165,10 @@ public function sendDonationMail($data) {
 
         $this->mail->Password = $this->password;
 
-        $this->mail->setFrom($this->sender_email,"Benevolent Bushahr");
+        $this->mail->setFrom($this->sender_email, $this->sender_name);
 
-        $this->mail->addAddress("benevolentbushahr@gmail.com");
-		$this->mail->addBCC("info@benevolentbushahr.in");
+        $this->mail->addAddress($this->send_to);
+		$this->mail->addBCC($this->send_bcc);
 
         $this->mail->Subject = $this->subject;
 
@@ -209,10 +193,6 @@ public function sendDonationMail($data) {
     }	
 	
 	public function sendDonerThankyouMail($data) {       
-        
-        $this->sender_email ='noreply@benevolentbushahr.in';
-
-        $this->sender_name ='Benevolent Bushahr';
 
         $this->subject ='Thank you for Contacting Benevolent Bushahr';
 
@@ -234,10 +214,10 @@ public function sendDonationMail($data) {
 
         $this->mail->Password = $this->password;
 
-        $this->mail->setFrom($this->sender_email,"Benevolent Bushahr");
+        $this->mail->setFrom($this->sender_email, $this->sender_name);
 
         $this->mail->addAddress($data['email-id']);
-		$this->mail->addBCC("info@benevolentbushahr.in");
+		$this->mail->addBCC($this->send_bcc);
 
         $this->mail->Subject = $this->subject;
 
